@@ -1,0 +1,111 @@
+https://rahulshettyacademy.com/client
+301
+https://rahulshettyacademy.com/client/
+200
+https://rahulshettyacademy.com/client/runtime.508c334766cdc1126fc8.js
+https://rahulshettyacademy.com/client/polyfills.d5e2c55785e9a2a0b452.js
+https://rahulshettyacademy.com/client/scripts.f335373444f21b6a8037.js
+https://rahulshettyacademy.com/client/main.7ee8fbe1f749815c4714.js
+https://rahulshettyacademy.com/client/styles.61bb682a09597970d7b9.css
+200
+200
+200
+200
+https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js
+https://rahulshettyacademy.com/client/135.4782aab7a591d79cf5e5.js
+200
+200
+https://rahulshettyacademy.com/client/193.d265881eae00ddd5b310.js
+200
+https://i.ibb.co/q7PTcrL/bg.webp
+200
+https://rahulshettyacademy.com/api/ecom/auth/login
+200
+https://rahulshettyacademy.com/api/ecom/product/get-all-products
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/6a004d76e83610b531d6c041
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/6a004d76e83610b531d6c041
+200
+200
+200
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/6a004d76e83610b531d6c041
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/6a004d76e83610b531d6c041
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/6a004d76e83610b531d6c041
+https://rahulshettyacademy.com/api/ecom/uploads/productImage_1767959265156.jpg
+https://rahulshettyacademy.com/api/ecom/uploads/productImage_1767959232316.jpeg
+https://rahulshettyacademy.com/api/ecom/uploads/productImage_1767959158182.jpg
+200
+200
+200
+[
+  'ADIDAS ORIGINAL$ 11500 View Add To Cart',
+  'ZARA COAT 3$ 11500 View Add To Cart',
+  'iphone 13 pro$ 55000 View Add To Cart'
+]
+control enters loop
+ADIDAS ORIGINAL
+control enters loop
+ZARA COAT 3
+ZARA COAT 3
+https://rahulshettyacademy.com/api/ecom/user/add-to-cart
+200
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/6a004d76e83610b531d6c041
+200
+https://rahulshettyacademy.com/api/ecom/user/get-cart-products/6a004d76e83610b531d6c041
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/6a004d76e83610b531d6c041
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/6a004d76e83610b531d6c041
+200
+200
+200
+https://rahulshettyacademy.com/api/ecom/uploads/productImage_1767959232316.jpeg
+https://rahulshettyacademy.com/api/ecom/product/get-product-detail/6960eac0c941646b7a8b3e68
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/6a004d76e83610b531d6c041
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/6a004d76e83610b531d6c041
+200
+200
+200
+https://rahulshettyacademy.com/api/ecom/uploads/productImage_1767959232316.jpeg
+vigneshwiki1323@gmail.com
+3
+ British Indian Ocean Territory
+ India
+* Coupon Applied
+true
+https://rahulshettyacademy.com/api/ecom/order/create-order
+201
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/6a004d76e83610b531d6c041
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/6a004d76e83610b531d6c041
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/6a004d76e83610b531d6c041
+https://rahulshettyacademy.com/api/ecom/order/get-orders-details?id=6a6efefd85b8849b492470a4
+200
+200
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/6a004d76e83610b531d6c041
+200
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/6a004d76e83610b531d6c041
+200
+200
+https://rahulshettyacademy.com/api/ecom/uploads/productImage_1767959232316.jpeg
+200
+ Thankyou for the order. 
+ | 6a6efefd85b8849b492470a4 | 
+https://rahulshettyacademy.com/api/ecom/order/get-orders-for-customer/6a004d76e83610b531d6c041
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/6a004d76e83610b531d6c041
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/6a004d76e83610b531d6c041
+200
+200
+200
+https://rahulshettyacademy.com/api/ecom/uploads/productImage_1767959158182.jpg
+https://rahulshettyacademy.com/api/ecom/uploads/productImage_1767959232316.jpeg
+https://rahulshettyacademy.com/api/ecom/uploads/productImage_1767959265156.jpg
+6a6efefd85b8849b492470a4
+order Click start
+https://rahulshettyacademy.com/api/ecom/order/get-orders-details?id=6a6efefd85b8849b492470a4
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/6a004d76e83610b531d6c041
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/6a004d76e83610b531d6c041
+order Click start
+done
+200
+200
+200
+https://rahulshettyacademy.com/api/ecom/uploads/productImage_1767959232316.jpeg
+2
+Email On Order Summary Page:  vigneshwiki1323@gmail.com 

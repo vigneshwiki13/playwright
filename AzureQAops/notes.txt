@@ -1,0 +1,29 @@
+Dashboard -> playwright workspace -> get started = 5steps
+step1= npm init @azure/playwright@latest
+    in package.json azure dependency was added and playwright.services.config.js was created
+step2= install azure cli using msi 64 or 32  
+        az login  = sometimes wont work.  close and run again or go to package.jso and run the command
+          choose that specific azure microsoft account give enter when needed
+
+setp3= $env:PLAYWRIGHT_SERVICE_URL="wss://eastasia.api.playwright.microsoft.com/playwrightworkspaces/b927c275-09cd-478f-906c-9a28ad6fe1a2/browsers"
+        copy the above command from the azure and run
+        use powershell command for windows
+          it only remembers in the session, when session cleared do this every time
+
+step4= run the command,  3 things important assignee = object id, --name= storage id , - group = resource name
+        object id=  go search microsoft entra id --> manage --> user --> select user --> object id
+    az role assignment create \
+  --assignee "26db0be9-7893-4aeb-b126-b578a7a0df3f" \
+  --role "Storage Blob Data Contributor" \
+  --scope "$(az storage account show --name pwstrgrrdcc71 --resource-group rrd --query id -o tsv)"
+
+this is working given by gemini
+  az role assignment create `
+  --assignee "26db0be9-7893-4aeb-b126-b578a7a0df3f" `
+  --role "Storage Blob Data Contributor" `
+  --scope $(az storage account show --name pwstrgrrdcc71 --resource-group rrd --query id -o tsv)
+
+  uncomment the reporter in the playwright.services.config.js
+
+step5=  npx playwright test --config=playwright.service.config.js --workers=4
+  all the configuration for playwright.service.config.js was from playwright.config.js

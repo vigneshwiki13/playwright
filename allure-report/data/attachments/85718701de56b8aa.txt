@@ -1,0 +1,41 @@
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTAwNGQ3NmU4MzYxMGI1MzFkNmMwNDEiLCJ1c2VyRW1haWwiOiJ2aWduZXNod2lraTEzMjNAZ21haWwuY29tIiwidXNlck1vYmlsZSI6NzA5MjQ5NjM4MiwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc4NTY1OTEzMiwiZXhwIjoxODE3MjE2NzMyfQ.J1eIpKasa4y6ZrAmnSXxDUdiDfUNQFAUucpQtPTUZ6g',
+  userId: '6a004d76e83610b531d6c041',
+  message: 'Login Successfully'
+}
+200
+https://rahulshettyacademy.com/api/ecom/auth/login
+{
+  date: 'Sun, 02 Aug 2026 08:25:32 GMT',
+  server: 'Apache/2.4.52 (Ubuntu)',
+  'content-security-policy': "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+  'x-dns-prefetch-control': 'off',
+  'expect-ct': 'max-age=0',
+  'x-frame-options': 'SAMEORIGIN',
+  'strict-transport-security': 'max-age=15552000; includeSubDomains',
+  'x-download-options': 'noopen',
+  'x-content-type-options': 'nosniff',
+  'x-permitted-cross-domain-policies': 'none',
+  'referrer-policy': 'no-referrer',
+  'x-xss-protection': '0',
+  'access-control-allow-origin': '*',
+  'content-type': 'application/json; charset=utf-8',
+  'content-length': '366',
+  etag: 'W/"16e-SVIOCf5opRHnuAtAtNmbOc1vbmA"',
+  vary: 'Accept-Encoding',
+  'keep-alive': 'timeout=5, max=100',
+  connection: 'Keep-Alive'
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTAwNGQ3NmU4MzYxMGI1MzFkNmMwNDEiLCJ1c2VyRW1haWwiOiJ2aWduZXNod2lraTEzMjNAZ21haWwuY29tIiwidXNlck1vYmlsZSI6NzA5MjQ5NjM4MiwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc4NTY1OTEzMiwiZXhwIjoxODE3MjE2NzMyfQ.J1eIpKasa4y6ZrAmnSXxDUdiDfUNQFAUucpQtPTUZ6g
+6a6efefc85b8849b49247085
+6a6eff0385b8849b4924713e
+6a6eff0185b8849b4924710e
+6a6eff0085b8849b492470eb
+6a6efeff85b8849b492470cb
+6a6efefd85b8849b492470a4
+6a6efefc85b8849b4924709c
+6a6efefc85b8849b49247097
+6a6efefc85b8849b4924708c
+6a6efefc85b8849b49247085
+done
+6a6efefc85b8849b49247085

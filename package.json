@@ -1,0 +1,32 @@
+{
+  "name": "playwrightautomation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "//": "instead of passing different commands in terminal save of script and just run npm run 'scriptName'",
+  "scripts": {
+    "tests": "npx playwright test tests/API/placedOrder.spec.js",
+    "regression": "npx playwright test --config playwright.config1.js --project=firefox",
+    "clean:results": "npx rimraf allure-results",
+    "regressionWithAllure": "npx playwright test --config playwright.config1.js --project=firefox --reporter=line --reporter=allure-playwright",
+    "api": "playwright test --grep \"@API\" --config playwright.config1.js --project=firefox",
+    "allureGenAndOpen": "npx allure generate ./allure-results --clean && npx allure open ./allure-report",
+    "cucumberRetry": "npx cucumber-js Cucumber/features/Ecommerece.feature --retry 1 --exit --format html:cucumber.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@azure/identity": "^4.13.1",
+    "@azure/playwright": "^1.1.6",
+    "@playwright/test": "^1.40",
+    "@types/node": "^25.6.0",
+    "allure-commandline": "^2.43.0",
+    "allure-playwright": "^3.10.2",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.2.0",
+    "exceljs": "^4.4.0"
+  }
+}

@@ -1,0 +1,10 @@
+https://github.com/cucumber/cucumber-js
+
+npm install @cucumber/cucumber
+    then check package.json dependencies for confirm
+
+on extensions (cntrl+shift+X) install cucumber-gherkin plugin
+.feature and steps.js
+    npx cucumber-js    to run and create snippets
+    (npx cucumber-js Cucumber/features/Ecommerece.feature)
+on steps.js import given when then

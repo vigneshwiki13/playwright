@@ -1,0 +1,21 @@
+download the war file
+cmd on where the war file is
+java -jar jenkins.war --httpPort=9091
+localhost:9091  on browser
+    + new porject name & freestyle porject
+        general, advance, custom workspace
+        copy the playwright automation path and paste in file directory in jenkins
+    +build step-- execute window batch command
+        give the command that we need to pass on terminal
+            eg. npm run regression
+
+    for to give dynamically this use parameter
+        General--> This project is parameterized
+            choice parameter    Name: any, choice: names we gave in package.json scripts eg. regression
+            configure on build step. eg "%what we give the Name above%"
+            now you will see the build with parameter button
+    build
+        click the running project and click console to view
+
+
+here we ren every thing locally not on cloud

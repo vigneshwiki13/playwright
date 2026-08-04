@@ -1,0 +1,24 @@
+[
+  'ADIDAS ORIGINAL$ 11500 View Add To Cart',
+  'ZARA COAT 3$ 11500 View Add To Cart',
+  'iphone 13 pro$ 55000 View Add To Cart'
+]
+control enters loop
+ADIDAS ORIGINAL
+control enters loop
+ZARA COAT 3
+ZARA COAT 3
+vigneshwiki1323@gmail.com
+3
+ British Indian Ocean Territory
+ India
+* Coupon Applied
+true
+ Thankyou for the order. 
+ | 6a6eff0085b8849b492470eb | 
+6a6eff0085b8849b492470eb
+order Click start
+order Click start
+done
+2
+Email On Order Summary Page:  vigneshwiki1323@gmail.com 

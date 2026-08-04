@@ -1,0 +1,10 @@
+//  for to view the ziped report to go trace.playwright.dev and upload the zip file
+
+//  allure reporting
+   //npm install -D allure-playwright
+
+   //npx rimraf allure-results  ==> run this first then the below commands
+   // --reporter=line,allure-playwright    ==> line report is the input to allure report (not working)
+   // --reporter=line --reporter=allure-playwright
+   // npx allure generate ./allure-results --clean
+   // npx allure open ./allure-report
