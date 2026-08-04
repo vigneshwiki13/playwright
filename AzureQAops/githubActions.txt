@@ -30,15 +30,28 @@ jobs:
       run: npm ci                                      shell script: like npm install for to install all dependencies
                                                         s1 completed in local & pushed so auto install
 
-        s2  -- use github action azure login (google )
+    s2  -- use github action azure login (google )
+            MSYS_NO_PATHCONV=1 az ad sp create-for-rbac --name "github-playwright" --role "Contributor" --scopes "/subscriptions/06866450-cf72-4809-b009-d0ba99b10ee7/resourceGroups/RRD" --json-auth
+                on gitbash  get the json - client id, secretid etc..,
+        github-> settings -> secret and variables -> actions -> Secret -> new repo -> name & secret(json)
+      
         az ad sp create-for rbac \--name "github-playwright" \--role "Contributor" \--scopes
-    - name: Install Playwright Browsers
-      run: npx playwright install --with-deps
+    - uses: azure/login@v3
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+    
     - name: Run Playwright tests
+    s3= github-> settings -> secret and variables -> actions -> variables
+            add the variable name and value without export and ""
+    env:
+        PLAYWRIGHT_SERVICE_URL: ${{ vars.PLAYWRIGHT_SERVICE_URL }}
       run: npx playwright test --config=playwright.service.config.js --workers=4                  step5
+
     - uses: actions/upload-artifact@v4                  upload results to the github portal (30days)
       if: ${{ !cancelled() }}
       with:
         name: playwright-report
         path: playwright-report/
         retention-days: 30
+s4 =MSYS_NO_PATHCONV=1 az role assignment create --assignee "$(az ad sp list --display-name 'github-playwright' --query '[0].appId' -o tsv)" --role "Storage Blob Data Contributor" --scope "$(az storage account show --name pwstrgrrdcc71 --resource-group rrd --query id -o tsv)"
+    just run the command in gitbash

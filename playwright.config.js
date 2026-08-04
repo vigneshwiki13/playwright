@@ -14,7 +14,7 @@ timeout: 40 *1000,
       reporter: 'html',
   use: {
       browserName: 'chromium',
-      headless: false,
+      headless: true,
       screenshot: 'on',
       trace: 'on'
       
