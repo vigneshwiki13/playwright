@@ -1,0 +1,44 @@
+s1= go to github actions playwright (googole- setting up ci) download the .yml file & read understand git hub actions link
+create folder .github/workflows/  (to check if already have go setting type exclude and check it- may hidden)
+
+on is an event that triggers the workflow (pipeline)
+
+job is a set of steps,  each step is a shell script (name and run) or an action that will run
+
+action is a pre-defined, reusable set of jobs or code that performs specific tasks within a workflow
+    You can write your own actions
+
+what you done to run the local code to run in azure we need to that all 5 steps
+
+
+name: Playwright Tests
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+jobs:
+  test:
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4                       action: checks out the latest pull or push branch code
+    - uses: actions/setup-node@v4                     action: set the environment to run (ubundu latest)
+      with:
+        node-version: lts/*
+    - name: Install dependencies
+      run: npm ci                                      shell script: like npm install for to install all dependencies
+                                                        s1 completed in local & pushed so auto install
+
+        s2  -- use github action azure login (google )
+        az ad sp create-for rbac \--name "github-playwright" \--role "Contributor" \--scopes
+    - name: Install Playwright Browsers
+      run: npx playwright install --with-deps
+    - name: Run Playwright tests
+      run: npx playwright test --config=playwright.service.config.js --workers=4                  step5
+    - uses: actions/upload-artifact@v4                  upload results to the github portal (30days)
+      if: ${{ !cancelled() }}
+      with:
+        name: playwright-report
+        path: playwright-report/
+        retention-days: 30
