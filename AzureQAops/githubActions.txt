@@ -28,10 +28,14 @@ jobs:
         node-version: lts/*
     - name: Install dependencies
       run: npm ci                                      shell script: like npm install for to install all dependencies
+                                                        s1 completed in local & pushed so auto install
+
+        s2  -- use github action azure login (google )
+        az ad sp create-for rbac \--name "github-playwright" \--role "Contributor" \--scopes
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run Playwright tests
-      run: npx playwright test
+      run: npx playwright test --config=playwright.service.config.js --workers=4                  step5
     - uses: actions/upload-artifact@v4                  upload results to the github portal (30days)
       if: ${{ !cancelled() }}
       with:
