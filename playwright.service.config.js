@@ -1,5 +1,5 @@
 const { defineConfig } = require('@playwright/test');
-const { createAzurePlaywrightConfig, ServiceOS } = require('@azure/microsoft-playwright-testing');
+const { createAzurePlaywrightConfig, ServiceOS } = require('@azure/playwright');
 const { DefaultAzureCredential } = require('@azure/identity');
 const config = require('./playwright.config');
 
@@ -21,9 +21,9 @@ export default defineConfig(
     This configuration will replace any existing reporter settings from your base config.
     If you're already using other reporters, add them to this array.
     */
-     reporter: [
-       ["html", { open: "never" }],
+    reporter: [
+      ["html", { open: "never" }],
       ["@azure/playwright/reporter"],
-     ],
+    ],
   }
 );
