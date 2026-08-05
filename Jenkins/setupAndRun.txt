@@ -18,4 +18,4 @@ localhost:9091  on browser
         click the running project and click console to view
 
 
-here we ren every thing locally not on cloud
+here we ren every thing locally not on cloud.
