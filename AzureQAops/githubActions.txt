@@ -54,4 +54,4 @@ jobs:
         path: playwright-report/
         retention-days: 30
 s4 =MSYS_NO_PATHCONV=1 az role assignment create --assignee "$(az ad sp list --display-name 'github-playwright' --query '[0].appId' -o tsv)" --role "Storage Blob Data Contributor" --scope "$(az storage account show --name pwstrgrrdcc71 --resource-group rrd --query id -o tsv)"
-    just run the command in gitbash...
+    just run the command in gitbash.
