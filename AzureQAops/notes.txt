@@ -27,3 +27,4 @@ this is working given by gemini
 
 step5=  npx playwright test --config=playwright.service.config.js --workers=4
   all the configuration for playwright.service.config.js was from playwright.config.js
+end
